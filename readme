@@ -1,0 +1,9 @@
+1. Download and set up CLI
+2. Download and put training data in a zip file on google drive
+3. Set replicate environment
+export REPLICATE_API_TOKEN=‘INSERT TOKEN HERE’
+4. Run the training:
+replicate train stability-ai/sdxl --destination kwebbelkop123/sdxl-animation input_images=‘PUT-YOUR-GITHUB-OR-HOSTED-ZIP-FILE-LINK-HERE’
+
+Note: Make sure the git link is like this:
+https://raw.githubusercontent.com/Kwebbelkop123/sdxl-training/main/animation.zip
